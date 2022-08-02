@@ -32,6 +32,8 @@ i++;
 }
 }
 }
+else
+{
 for (i = 0; input[i]; i++)
 {
 input[i] = (input[i] == 16 ? '|' : input[i]);
